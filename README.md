@@ -34,6 +34,14 @@ if (width == 1080 && height == 1080) {
 } 
 ```
 
+### Here is an example with tabs enabled
+
+<p align="center">
+  <img src="https://github.com/suchsoak/Photoshop-Javascript/blob/main/tabs.png" alt="tabs-img">
+</p>
+
+> https://www.instagram.com/max_47___/p/C6oMZXSr32r/?img_index=1
+
 | Documentation |  Links |
 | ------ | ------ |
 |  Photoshop Javascript |  https://github.com/Adobe-CEP/CEP-Resources/blob/master/Documentation/Product%20specific%20Documentation/Photoshop%20Scripting/photoshop-javascript-ref-2020.pdf
