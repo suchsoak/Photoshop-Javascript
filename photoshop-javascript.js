@@ -1,7 +1,7 @@
 app.preferences.rulerUnits = Units.PIXELS;
 
 if (Units.PIXELS == false){
-    alert("Had a problem, check out if is pixels!!")
+    alert("Had a problem, check if it's pixels!!")
 }
 
 // var width = new UnitValue("1080 pixels")
