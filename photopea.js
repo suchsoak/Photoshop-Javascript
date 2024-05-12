@@ -4,7 +4,7 @@ if (px == false){
     alert("Had a problem, check out if is pixels!!")
 } else{
 
- alert("Guias ativadas!")
+ alert("Enabled Tabs.")
 
 }
 
