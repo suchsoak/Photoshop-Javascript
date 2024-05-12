@@ -42,6 +42,13 @@ if (width == 1080 && height == 1080) {
 
 > https://www.instagram.com/max_47___/p/C6oMZXSr32r/?img_index=1
 
+> You can use this on photopea too
+
+| Photopea |  Links |
+| ------ | ------ |
+|  Photopea Javascript |  https://github.com/suchsoak/Photoshop-Javascript/blob/main/photopea.js
+|  Photopea |  https://www.photopea.com
+
 | Documentation |  Links |
 | ------ | ------ |
 |  Photoshop Javascript |  https://github.com/Adobe-CEP/CEP-Resources/blob/master/Documentation/Product%20specific%20Documentation/Photoshop%20Scripting/photoshop-javascript-ref-2020.pdf
