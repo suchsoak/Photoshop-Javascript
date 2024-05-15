@@ -18,10 +18,11 @@ if (width == 1080 && height == 1080) {
   doc.guides.add(Direction.HORIZONTAL, 1003.469);
   doc.guides.add(Direction.VERTICAL, 76.531);
   doc.guides.add(Direction.VERTICAL, 540.0);
+  doc.guides.add(Direction.HORIZONTAL, 540.0);
   doc.guides.add(Direction.VERTICAL, 1003.469);
 
   alert("Enabled Tabs.");
-} 
+}
 
 if (width == 1080 && height == 1920) {
     // STORY
@@ -30,9 +31,9 @@ if (width == 1080 && height == 1920) {
     doc.guides.add(Direction.HORIZONTAL, 1827);
     doc.guides.add(Direction.VERTICAL, 67);
     doc.guides.add(Direction.VERTICAL, 1046.5);
-  
+
     alert("Enabled Tabs.");
-  } 
+  }
 
 if (width == 1050 && height == 600) {
     // CARD
@@ -40,7 +41,16 @@ if (width == 1050 && height == 600) {
     doc.guides.add(Direction.HORIZONTAL, 23.5);
     doc.guides.add(Direction.HORIZONTAL, 577.5);
     doc.guides.add(Direction.VERTICAL, 1024);
-  
-    alert("Enabled Tabs.");
-  } 
 
+    alert("Enabled Tabs.");
+  }
+
+if (width == 1300 && height == 1300) {
+    // CARD
+    doc.guides.add(Direction.VERTICAL, 1220);
+    doc.guides.add(Direction.HORIZONTAL, 80);
+    doc.guides.add(Direction.HORIZONTAL, 1220);
+    doc.guides.add(Direction.VERTICAL, 80);
+
+    alert("Enabled Tabs.");
+  }
