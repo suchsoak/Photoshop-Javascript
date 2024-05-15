@@ -60,3 +60,12 @@ if (width == 6480 && height == 1068) {
     alert("Enabled Tabs.");
   } 
 
+if (width == 1300 && height == 1300) {
+    // CARD
+    doc.guides.add(Direction.VERTICAL, 1220);
+    doc.guides.add(Direction.HORIZONTAL, 80);
+    doc.guides.add(Direction.HORIZONTAL, 1220);
+    doc.guides.add(Direction.VERTICAL, 80);
+
+    alert("Enabled Tabs.");
+  }
