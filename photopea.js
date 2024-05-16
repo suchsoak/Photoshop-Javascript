@@ -69,3 +69,20 @@ if (width == 1300 && height == 1300) {
 
     alert("Enabled Tabs.");
   }
+
+if (width == 8000 && height == 2000) {
+    // FEED
+    doc.guides.add(Direction.VERTICAL, 2000);
+    doc.guides.add(Direction.VERTICAL, 4000);
+    doc.guides.add(Direction.VERTICAL, 6000);
+    doc.guides.add(Direction.VERTICAL, 996.125);
+    doc.guides.add(Direction.HORIZONTAL, 100);
+    doc.guides.add(Direction.HORIZONTAL, 1900);
+    doc.guides.add(Direction.VERTICAL, 80);
+
+    alert("Enabled Tabs.");
+  }
+
+else{
+  alert ("check image size")
+}
