@@ -1,6 +1,9 @@
+function size(){
+
 app.preferences.rulerUnits = Units.PIXELS;
 
 if (Units.PIXELS == false){
+
     alert("Had a problem, check if it's pixels!!")
 }
 
@@ -68,6 +71,10 @@ if (width == 8000 && height == 2000) {
     alert("Enabled Tabs.");
   }
 
-else{
-  alert ("check image size")
 }
+size()
+
+if (app.preferences.rulerUnits !== Units.PIXELS){
+  alert("Had a problem, check the size!");
+}
+
