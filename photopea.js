@@ -1,4 +1,6 @@
- var px = app.preferences.rulerUnits = "Pixels";
+function size(){
+
+var px = app.preferences.rulerUnits = "Pixels";
 
 if (px == false){
     alert("Had a problem, check out if is pixels!!")
@@ -85,4 +87,12 @@ if (width == 8000 && height == 2000) {
 
 else{
   alert ("check image size")
+}
+
+}
+
+size()
+
+if (app.preferences.rulerUnits !== Units.PIXELS){
+  alert("Had a problem, check the size!");
 }
