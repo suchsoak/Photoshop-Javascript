@@ -39,6 +39,17 @@ if (width == 1080 && height == 1920) {
   
     alert("Enabled Tabs.");
   } 
+    
+if (width == 2160 && height == 3840) {
+    // STORY
+    doc.guides.add(Direction.VERTICAL, 180);
+    doc.guides.add(Direction.HORIZONTAL, 1020);
+    doc.guides.add(Direction.HORIZONTAL, 2820);
+    doc.guides.add(Direction.VERTICAL, 1980);
+    doc.guides.add(Direction.VERTICAL, 540);
+
+    alert("Enabled Tabs.");
+  }
 
 if (width == 1050 && height == 600) {
     // CARD
