@@ -28,12 +28,23 @@ if (width == 1080 && height == 1080) {
 }
 
 if (width == 1080 && height == 1920) {
+  // STORY
+  doc.guides.add(Direction.VERTICAL, 540.0);
+  doc.guides.add(Direction.HORIZONTAL, 188);
+  doc.guides.add(Direction.HORIZONTAL, 1827);
+  doc.guides.add(Direction.VERTICAL, 67);
+  doc.guides.add(Direction.VERTICAL, 1046.5);
+
+  alert("Enabled Tabs.");
+}
+
+if (width == 2160 && height == 3840) {
     // STORY
-    doc.guides.add(Direction.VERTICAL, 540.0);
-    doc.guides.add(Direction.HORIZONTAL, 188);
-    doc.guides.add(Direction.HORIZONTAL, 1827);
-    doc.guides.add(Direction.VERTICAL, 67);
-    doc.guides.add(Direction.VERTICAL, 1046.5);
+    doc.guides.add(Direction.VERTICAL, 180);
+    doc.guides.add(Direction.HORIZONTAL, 1020);
+    doc.guides.add(Direction.HORIZONTAL, 2820);
+    doc.guides.add(Direction.VERTICAL, 1980);
+    doc.guides.add(Direction.VERTICAL, 540);
 
     alert("Enabled Tabs.");
   }
