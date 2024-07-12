@@ -77,6 +77,7 @@ if (width == 1300 && height == 1300) {
     // CARD
     doc.guides.add(Direction.VERTICAL, 1220);
     doc.guides.add(Direction.HORIZONTAL, 80);
+    doc.guides.add(Direction.HORIZONTAL, 650);
     doc.guides.add(Direction.HORIZONTAL, 1220);
     doc.guides.add(Direction.VERTICAL, 80);
 
