@@ -37,7 +37,7 @@ if (width == 1080 && height == 1080) {
 ### Here is an example with tabs enabled
 
 <p align="center">
-  <img src="https://github.com/suchsoak/Photoshop-Javascript/blob/main/tabs.png" alt="tabs-img">
+  <img src="https://github.com/suchsoak/Photoshop-Javascript/blob/main/1080x1080.png" alt="1080x1080-img">
 </p>
 
 > https://www.instagram.com/max_47___/p/C6oMZXSr32r/?img_index=1
