@@ -40,7 +40,7 @@ if (width == 1080 && height == 1080) {
   <img src="https://github.com/suchsoak/Photoshop-Javascript/blob/main/1080x1080.png" alt="1080x1080-img">
 </p>
 
-> https://www.instagram.com/max_47___/p/C6oMZXSr32r/?img_index=1
+> https://www.instagram.com/max_47___/
 
 > You can use this on photopea too
 
