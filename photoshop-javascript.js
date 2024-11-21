@@ -66,6 +66,7 @@ if (width == 1300 && height == 1300) {
     doc.guides.add(Direction.HORIZONTAL, 650);
     doc.guides.add(Direction.HORIZONTAL, 1220);
     doc.guides.add(Direction.VERTICAL, 80);
+    doc.guides.add(Direction.VERTICAL, 650);
 
     alert("Enabled Tabs.");
   }
