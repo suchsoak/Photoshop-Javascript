@@ -17,13 +17,23 @@ var height = doc.height;
 
 if (width == 1080 && height == 1080) {
     // FEED
-  doc.guides.add(Direction.HORIZONTAL, 76.531);
-  doc.guides.add(Direction.HORIZONTAL, 1003.469);
-  doc.guides.add(Direction.VERTICAL, 76.531);
-  doc.guides.add(Direction.VERTICAL, 540.0);
-  doc.guides.add(Direction.HORIZONTAL, 540.0);
-  doc.guides.add(Direction.VERTICAL, 1003.469);
+doc.guides.add(Direction.VERTICAL, 70.0);
+doc.guides.add(Direction.VERTICAL, 204.281);
+doc.guides.add(Direction.VERTICAL, 338.563);
+doc.guides.add(Direction.VERTICAL, 472.844);
+doc.guides.add(Direction.VERTICAL, 607.156);
+doc.guides.add(Direction.VERTICAL, 741.438);
+doc.guides.add(Direction.VERTICAL, 875.719);
+doc.guides.add(Direction.VERTICAL, 1010.0);
 
+doc.guides.add(Direction.HORIZONTAL, 0.0);
+doc.guides.add(Direction.HORIZONTAL, 154.281);
+doc.guides.add(Direction.HORIZONTAL, 308.563);
+doc.guides.add(Direction.HORIZONTAL, 462.844);
+doc.guides.add(Direction.HORIZONTAL, 617.156);
+doc.guides.add(Direction.HORIZONTAL, 771.438);
+doc.guides.add(Direction.HORIZONTAL, 925.719);
+doc.guides.add(Direction.HORIZONTAL, 1080.0);
   alert("Enabled Tabs.");
 }
 
@@ -84,10 +94,10 @@ if (width == 8000 && height == 2000) {
     alert("Enabled Tabs.");
   }
 
-}
+} 
 size()
 
-if (app.preferences.rulerUnits !== Units.PIXELS){
+if(app.preferences.rulerUnits !== Units.PIXELS){
   alert("Had a problem, check the size!");
 }
 
