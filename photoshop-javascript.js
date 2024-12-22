@@ -25,6 +25,7 @@ doc.guides.add(Direction.VERTICAL, 607.156);
 doc.guides.add(Direction.VERTICAL, 741.438);
 doc.guides.add(Direction.VERTICAL, 875.719);
 doc.guides.add(Direction.VERTICAL, 1010.0);
+doc.guides.add(Direction.VERTICAL, 540);
 
 doc.guides.add(Direction.HORIZONTAL, 0.0);
 doc.guides.add(Direction.HORIZONTAL, 154.281);
